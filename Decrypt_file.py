@@ -1,6 +1,6 @@
 try:
     path = input(r'Enter the path of the file: ')
-    key = int(input("ENter the key to encrypt: "))
+    key = int(input("Enter the key to encrypt: "))
     print("The path of the file: ",path)
     print("The key for decryption: ",key)
     f = open(path,'rb')
